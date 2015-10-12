@@ -1,0 +1,49 @@
+{
+  "revision_id": "eacf07dc34975dca63c66cfe15dd9ed5c9a97b288b3149545cb5188880f60172",
+  "name": "app",
+  "run_list": [
+    "recipe[app::default]"
+  ],
+  "cookbook_locks": {
+    "app": {
+      "version": "0.1.0",
+      "identifier": "869543ac43ac8d15404629370f5398ad63d5acf2",
+      "dotted_decimal_identifier": "37881764764691597.5981644594286419.167870471711986",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "git@github.com:ashii007/ed-lab3",
+        "revision": "39a0ded7f9cb3ed2c0725da8699ed36e8445f336",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/HEAD -> origin/master",
+          "origin/master"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "app",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "app (0.1.0)": [
+
+      ]
+    }
+  }
+}
